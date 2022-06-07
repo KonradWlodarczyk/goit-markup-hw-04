@@ -344,7 +344,14 @@ ul {
   font-style: normal;
   display: flex;
 }
-
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer-section {
+  display: flex;
+  align-items: flex-start;
+}
 .footer-logo {
   display: inline-block;
   color: #fff;
