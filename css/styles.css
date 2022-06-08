@@ -15,6 +15,7 @@
 }
 .container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
@@ -289,11 +290,12 @@ ul {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  color: var(--icon-color);
 }
 .client-logo {
   width: 106px;
   height: 60px;
-  fill: var(--icon-color);
+  fill: currentColor;
 }
 
 .client-link:hover,
@@ -301,10 +303,6 @@ ul {
   color: var(--brand-color);
   cursor: pointer;
   border: 1px solid var(--brand-color);
-}
-.client-logo:focus,
-.client-logo:hover {
-  fill: var(--brand-color);
 }
 /* ----SOCIAL LINKI---- */
 .social-list {
@@ -390,11 +388,12 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding-top: 12px;
+  padding-left: 70px;
 }
 .footer-social-title {
   color: #fff;
   text-transform: uppercase;
+  padding-bottom: 20px;
 }
 .footer-social-icon {
   display: flex;
@@ -406,6 +405,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
 .footer-social-link {
   display: flex;
@@ -466,6 +466,10 @@ ul {
   margin-left: 30px;
   margin-bottom: 30px;
   background-color: #fff;
+}
+.offer-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .offer-list-item figcaption {
   border-right: 1px solid #eeeeee;
