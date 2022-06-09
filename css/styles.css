@@ -136,6 +136,9 @@ ul {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 1600px;
+  align-items: center;
+  margin: 0 auto;
 }
 .main-title-item {
   font-weight: 900;
@@ -389,6 +392,7 @@ ul {
   flex-direction: column;
   justify-content: start;
   padding-left: 70px;
+  padding-top: 12px;
 }
 .footer-social-title {
   color: #fff;
